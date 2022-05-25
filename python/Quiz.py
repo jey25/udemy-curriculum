@@ -77,3 +77,25 @@
 
 # Quiz_23
 
+# age = input("What is your current age? ")
+
+# days = (90 * 365) - (int(age) * 365)
+# weeks = (90 * 52) - (int(age) * 52)
+# months = (90 * 12) - (int(age) * 12)
+
+# print(f"You have {days} days, {weeks} weeks and {months} months left")
+
+
+# Project_24 - Tip Calculator
+
+# print("Welcome to the tip calculator")
+# bill = input("What was the total bill?  ")
+# percent = input("What percentage tip would you like to give? 10, 12, or 15?  ")
+# people_count = input("How many people to split the bill?  ")
+
+# result = float(bill) * ((float(percent) / 100) + 1)
+# result_percent = round(result, 2)
+# pay =  round(result_percent / int(people_count), 2)
+# pay = "{:.2f}".format(pay)
+
+# print(f"Each person should pay: ${pay}")
