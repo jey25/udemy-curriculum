@@ -101,7 +101,23 @@
 # print(f"Each person should pay: ${pay}")
 
 
+# Quiz_28
+
+# 🚨 Don't change the code below 👇
+# number = int(input("Which number do you want to check? "))
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+# if number % 2 == 0:
+  # print("This is even Number.")
+# else:
+  # print("This is odd Number.")
 
 
+# Quiz_30
+
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg:  "))
 
 
