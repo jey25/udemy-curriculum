@@ -179,12 +179,82 @@
 # Quiz_35
 
 # 🚨 Don't change the code below 👇
-print("Welcome to the Love Calculator!")
-name1 = input("What is your name? \n")
-name2 = input("What is their name? \n")
+# print("Welcome to the Love Calculator!")
+# name1 = input("What is your name? \n")
+# name2 = input("What is their name? \n")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
 
+# name = name1.lower() + name2.lower()
+
+# count_t = name.count("t")
+# count_r = name.count('r')
+# count_u = name.count('u')
+# count_e = name.count('e')
+
+# count_l = name.count('l')
+# count_o = name.count('o')
+# count_v = name.count('v')
+
+# count_true = count_t + count_r + count_u + count_e
+# count_love = count_l + count_o + count_v + count_e
+
+# love_score = str(count_true) + str(count_love)
+
+# if int(love_score) < 10 or int(love_score) > 90:
+#   print(f"Your score is {love_score}, you go together like coke and mentos.")
+# elif 40 <= int(love_score) <= 50:
+#   print(f"Your score is {love_score}, you are alright together.")
+# else:
+#   print(f"Your score is {love_score}")
 
 
+# Quiz_36
+
+# print('''
+# *******************************************************************************
+#           |                   |                  |                     |
+#  _________|________________.=""_;=.______________|_____________________|_______
+# |                   |  ,-"_,=""     `"=.|                  |
+# |___________________|__"=._o`"-._        `"=.______________|___________________
+#           |                `"=._o`"=._      _`"=._                     |
+#  _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+# |                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+# |___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+#           |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+#  _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+# |                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+# |___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+# ____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+# /______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+# ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+# /______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+# ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+# /______/______/______/______/______/______/______/______/______/______/_____ /
+# *******************************************************************************
+# ''')
+# print("Welcome to Treasure Island.")
+# print("Your mission is to find the treasure.") 
+
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+
+#Write your code below this line 👇
+
+# first_answer = input("'You're at a crossroad. Where do you want to go? Type 'left' or 'right'")
+# fl_answer = first_answer.lower()
+
+# if fl_answer == "left":
+#   second_answer = input("'You've come to a lake. There is an island in the middle of the lake. Type 'wait' to wait for a boat. Type 'swim' to swim across.'")
+#   sl_answer = second_answer.lower()
+#   if sl_answer == "swim":
+#     third_answer = input('"You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?"')
+#     tl_answer = third_answer.lower()
+#     if tl_answer == "yellow":
+#       print('"You found the treasure! You Win!"')
+#     else:
+#       print('"It`s a room full of fire. Game Over."')
+#   else:
+#     print('"You get attacked by an angry trout. Game Over."')
+# else:
+#   print("Your Die!")
