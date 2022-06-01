@@ -117,7 +117,74 @@
 
 # Quiz_30
 
-height = float(input("enter your height in m: "))
-weight = float(input("enter your weight in kg:  "))
+# height = float(input("enter your height in m: "))
+# weight = float(input("enter your weight in kg:  "))
+
+# bmi = weight / height**2
+# bmi_result = round(bmi, 2)
+# if bmi_result < 18.5:
+#   print(f"You are {bmi_result}. It is underweight")
+# elif bmi_result < 25:
+#   print(f"You are {bmi_result}. It is normal weight")
+# elif bmi_result < 30:
+#   print(f"You are {bmi_result}. It is overweight")
+# elif bmi_result < 35:
+#   print(f"You are {bmi_result}. It is obese")
+# else:
+#   print(f"Above 35 is elinically obese.")
+
+
+# Quiz_31
+
+# year = int(input("which year do you want yo check?"))
+
+# if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+#   print("leap")
+# else:
+#   print("Not Leap")
+
+# Quiz_33
+
+# 🚨 Don't change the code below 👇
+# from re import M
+
+
+# print("Welcome to Python Pizza Deliveries!")
+# size = input("What size pizza do you want? S, M, or L ")
+# add_pepperoni = input("Do you want pepperoni? Y or N ")
+# extra_cheese = input("Do you want extra cheese? Y or N ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+# pay = 0
+# if size == "S":
+#   pay = 15
+# elif size == "M":
+#   pay = 20
+# else:
+#   pay = 25
+
+# if add_pepperoni == "Y":
+#   if size == "S":
+#     pay += 2
+#   else:
+#     pay += 3
+
+# if extra_cheese == "Y":
+#   pay += 1
+    
+# print(f"Your final bill is: ${pay}")
+
+
+# Quiz_35
+
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
 
 
