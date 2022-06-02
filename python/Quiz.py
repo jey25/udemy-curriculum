@@ -258,3 +258,35 @@
 #     print('"You get attacked by an angry trout. Game Over."')
 # else:
 #   print("Your Die!")
+
+# Quiz_40
+
+# import random
+
+# head = "Heads"
+# tail = "Tails"
+
+# random_text = random.randint(0, 1)
+# if random_text == 0:
+#   print(head)
+# else:
+#   print(tail)
+
+#quiz_42
+
+# Split string method
+# names_string = input("Give me everybody's names, separated by a comma. ")
+# names = names_string.split(",")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+# import random
+
+# names_number = len(names)
+# pay_member = random.randint(0, names_number - 1)
+# buya = names[pay_member]
+
+# print(f"{buya} pay today lunch, Thank you!")
+
+
