@@ -290,3 +290,166 @@
 # print(f"{buya} pay today lunch, Thank you!")
 
 
+# Quiz_44
+
+# 🚨 Don't change the code below 👇
+# row1 = ["⬜️","⬜️","⬜️"]
+# row2 = ["⬜️","⬜️","⬜️"]
+# row3 = ["⬜️","⬜️","⬜️"]
+# map = [row1, row2, row3]
+# print(f"{row1}\n{row2}\n{row3}")
+# position = input("Where do you want to put the treasure? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this row 👇
+
+# position_list = list(position)
+
+# i = 1
+
+# while i < 4:
+#   if position_list[0] == f"{i}" and position_list[1] == "1":
+#     map[0][i-1] = "X"
+#   elif position_list[0] == f"{i}" and position_list[1] == "2":
+#     map[1][i-1] = "X"
+#   elif position_list[0] == f"{i}" and position_list[1] == "3":
+#     map[2][i-1] = "X"
+#   i += 1
+
+#Write your code above this row 👆
+
+# 🚨 Don't change the code below 👇
+# print(f"{row1}\n{row2}\n{row3}")
+
+
+# Quiz_45
+
+# rock = '''
+#     _______
+# ---'   ____)
+#       (_____)
+#       (_____)
+#       (____)
+# ---.__(___)
+# '''
+
+# paper = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#           _______)
+#          _______)
+# ---.__________)
+# '''
+
+# scissors = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#        __________)
+#       (____)
+# ---.__(___)
+# '''
+
+#Write your code below this line 👇
+
+# import random
+
+# choose = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.")
+# print(choose)
+
+# if choose == "0":
+#   print(rock)
+# elif choose == "1":
+#   print(paper)
+# elif choose == "2":
+#   print(scissors)
+# else:
+#   print("wrong number.")
+
+# print("Computer chose :")
+
+# list = [rock, paper, scissors]
+
+# computer_chose = random.choice(list)
+# print(computer_chose)
+
+# choose_number = int(choose)
+
+# if choose_number == 0 and computer_chose == rock:
+#   print("Draw.")
+# elif choose_number == 0 and computer_chose == paper:
+#   print("You lose.")
+# elif choose_number == 0 and computer_chose == scissors:
+#   print("You win!")
+# elif choose_number == 1 and computer_chose == rock:
+#   print("You win!")
+# elif choose_number == 1 and computer_chose == paper:
+#   print("Draw.")
+# elif choose_number == 1 and computer_chose == scissors:
+#   print("You lose.")
+# elif choose_number == 2 and computer_chose == rock:
+#   print("You lose.")
+# elif choose_number == 2 and computer_chose == paper:
+#   print("You win!")
+# elif choose_number == 2 and computer_chose == scissors:
+#   print("Draw.")
+# elif choose_number != 0 or choose_number != 1 or choose_number != 2:
+#   print("You wrong number, lose.")
+
+
+# ======== other case =========================
+
+
+# import random 
+
+# list = [rock, paper, scissors]
+# choose = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+
+
+# if choose < 0 or choose >= 3:
+#   print("wrong number, you lose")
+# else:
+#   print(list[choose])
+
+#   computer_chose = random.randint(0, 2)
+#   print(f"computer chose is :")
+#   print(list[computer_chose])
+
+#   if choose == 2 and computer_chose == 0:
+#     print("you lose")
+#   elif choose > computer_chose:
+#     print("you win!")
+#   elif choose == 0 and computer_chose == 2:
+#     print("you win")
+#   elif choose < computer_chose:
+#     print("you lose")
+#   elif choose == computer_chose:
+#     print("draw")
+
+
+# quiz_49
+
+# 🚨 Don't change the code below 👇
+# from turtle import heading
+
+
+# student_heights = input("Input a list of student heights ").split()
+
+# for n in range(0, len(student_heights)):
+#   student_heights[n] = int(student_heights[n])
+# 🚨 Don't change the code above 👆
+
+#Write your code below this row 👇
+# height = 0
+# number = 0
+
+# for student in student_heights:
+#   height += student
+#   number += 1
+
+# total_height = height / number
+# print(total_height)
+  
+
+
