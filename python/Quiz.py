@@ -545,3 +545,22 @@
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
 
+# 63_ Reeborg's worlds
+
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
+
+# while front_is_clear():
+#     move()
+# turn_left()
+    
+# while not at_goal():
+#     if right_is_clear():
+#         turn_right()
+#         move()
+#     elif front_is_clear():
+#         move()
+#     else:
+#         turn_left()
