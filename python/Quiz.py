@@ -566,6 +566,7 @@
 #         turn_left()
 
 
+<<<<<<< Updated upstream
 # Quiz 67
 
 #Step 1 
@@ -843,4 +844,6 @@
 # coverage = 5
 # paint_calc(height=test_h, width=test_w, cover=coverage)
 
+=======
+>>>>>>> Stashed changes
 
