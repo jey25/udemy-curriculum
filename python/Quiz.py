@@ -566,6 +566,7 @@
 #         turn_left()
 
 
+<<<<<<< Updated upstream
 # Quiz 67
 
 #Step 1 
@@ -829,4 +830,20 @@
 #     #TODO-2: - Import the stages from hangman_art.py and make this error go away.
 #     print(stages[lives])
 
+# Quiz_81
+# import math
+
+# def paint_calc(height, width, cover):
+#   can = (test_h * test_w) / coverage
+#   cans = math.ceil(can)
+#   print(f"You'll need {cans} cans of paint.")
+
+
+# test_h = int(input("Height of wall: "))
+# test_w = int(input("Width of wall: "))
+# coverage = 5
+# paint_calc(height=test_h, width=test_w, cover=coverage)
+
+=======
+>>>>>>> Stashed changes
 
