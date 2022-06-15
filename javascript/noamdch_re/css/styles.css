@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+  margin-top: 50px;
+}
+
+.status-bar {
+  display: flex;
+  justify-content:center;
+}
+
+.status-bar__column {
+  width: 30%;
+}
+
+
+.status_bar__column:first-child span {
+  margin-left: -180px;
+}
+
+.status_bar__column:last-child span {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.welcome {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome__image {
+  display: flex;
+  font-size: 150px;
+  margin-left: -70px;
+}
+
+.welcome__image span {
+  font-size: 20px;
+  margin-left: -80px;
+  margin-bottom: -80px;
+}
+
+.welcome__title {
+  width: 50%;
+  margin-top: -0px;
+  margin-left: 40px;
+}
+
+.welcome__text {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 40px;
+}
+
+#play-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#play-form:first-child input {
+  width: 33%;
+  border-radius: 20%;
+  margin-left: 500px;
+}
