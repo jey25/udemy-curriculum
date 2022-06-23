@@ -1005,3 +1005,25 @@
 # print(order["main"][2][0])
 
 
+#Quiz_94
+
+from replit import clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
