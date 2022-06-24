@@ -1007,7 +1007,35 @@
 
 #Quiz_94
 
-from replit import clear
+# import os
+# clear = lambda: os.system('cls')
+
+# pay = {}
+# other_person = True
+
+# def highest_payer(pay):
+#   highest_bid = 0
+#   winner = ""
+#   for one in pay:
+#     bid = pay[one]
+#     if bid > highest_bid:
+#       highest_bid = bid
+#       winner = one
+#   print(f"The winner is ${winner} with a bid of ${highest_bid}")
+
+# while other_person:
+#   name = input("What is your name?: ")
+#   bid = input("What is your bid?: $")
+
+#   pay[name] = int(bid)
+
+#   answer = input("Other person? (yes or no) : ")
+#   if answer == "no":
+#     other_person = False
+#     highest_payer(pay)
+#   else:
+#     clear()
+
 
 
 
