@@ -1098,26 +1098,30 @@ operations = {
   "/":divide,
 }
 
-num1 = int(input("What is the first number? : "))
+def callculator():
+  num1 = int(input("What is the first number? : "))
 
-for operation in operations:
-  print(operation)
-operation_symbol = input("pick an operation: ")
-num2 = int(input("What is the second number? : "))
+  for operation in operations:
+    print(operation)
 
-calculation_function = operations[operation_symbol]
-first_answer = calculation_function(num1, num2)
+  re_calculation = True
 
-print(f"{num1} {operation_symbol} {num2} = {first_answer}")
+  while re_calculation:
+    operation_symbol = input("pick an operation: ")
+    num2 = int(input("What is the next number? : "))
 
-operation_symbol = input("pick an operation: ")
-num3 = int(input("What is the next number? : "))
-calculation_function = operations[operation_symbol]
-second_answer = calculation_function(first_answer, num3)
+    calculation_function = operations[operation_symbol]
+    answer = calculation_function(num1, num2)
 
-print(f"{first_answer} {operation_symbol} {num3} = {second_answer}")
+    print(f"{num1} {operation_symbol} {num2} = {answer}")
+    
+    if input(f"Type 'y' to continue with {answer}, or type 'n' to exit. : ") == "y":
+      num1 = answer
+    else:
+      re_calculation = False
+      callculator()      
 
-
+callculator()
 
 
 
