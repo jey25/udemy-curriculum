@@ -1104,16 +1104,18 @@ for operation in operations:
   print(operation)
 operation_symbol = input("pick an operation: ")
 num2 = int(input("What is the second number? : "))
+
 calculation_function = operations[operation_symbol]
-answer = calculation_function(num1, num2)
+first_answer = calculation_function(num1, num2)
 
-print(f"{num1} {operation_symbol} {num2} = {answer}")
+print(f"{num1} {operation_symbol} {num2} = {first_answer}")
 
+operation_symbol = input("pick an operation: ")
+num3 = int(input("What is the next number? : "))
+calculation_function = operations[operation_symbol]
+second_answer = calculation_function(first_answer, num3)
 
-
-
-
-
+print(f"{first_answer} {operation_symbol} {num3} = {second_answer}")
 
 
 
