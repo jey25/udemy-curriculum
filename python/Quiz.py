@@ -1245,4 +1245,48 @@
 #   play_game()
 
 
+# Quiz 118
+# import random
+
+# EASY = 10
+# HARD = 5
+# is_game_over = False
+
+# def choice_number():
+#   number = int(random.randrange(1, 101))
+#   return number
+
+# number = choice_number()
+
+# print("Welcome to the Number Guessing Game!")
+# print("I'm thinking of a number between 1 and 100. ")
+
+# def set_difficulty():
+#   level = input("choose a difficulty. Type 'easy' or 'hard' : ")
+
+#   if level == "easy":
+#     return EASY
+#   else:
+#     return HARD
+
+# turns = set_difficulty()
+
+# while not is_game_over:
+#   print(f"You have {turns} attempts remaining to guess the number.")
+#   guess_number = int(input("Make a guess: "))
+#   if turns < 2:
+#     print("You lose. Game over.")
+#     is_game_over = True
+#   elif guess_number == number:
+#     print("Great. You win!")
+#     is_game_over = True
+#   elif guess_number < number:
+#     print("Too low.")
+#     print("guess again.")
+#     turns -= 1
+#   else:
+#     print("Too high.")
+#     print("guess again.")
+#     turns -= 1
+
 
