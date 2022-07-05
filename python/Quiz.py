@@ -1305,12 +1305,14 @@
 # dice_num = randint(0, 5)
 # print(dice_imgs[dice_num])
 
-# # Play Computer
+# Play Computer
 # year = int(input("What's your year of birth?"))
 # if year > 1980 and year < 1994:
 #   print("You are a millenial.")
-# elif year > 1994:
+# elif year >= 1994:
 #   print("You are a Gen Z.")
+# else:
+#   print("You are old.")
 
 # # Fix the Errors
 # age = input("How old are you?")
