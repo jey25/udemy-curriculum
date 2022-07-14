@@ -1723,15 +1723,15 @@
 
 #   is_correct = check_answer(guess, a_count, b_count)
 
-#   #결과가 출력되기 직전에 clear 함수 호출
-#   clear()
+  #결과가 출력되기 직전에 clear 함수 호출
+  clear()
 
-#   if is_correct:
-#     score += 1
-#     print(f"You're right! Current score : {score}")
-#   else:
-#     print(f"Sorry, that's wrong. Final score : {score}")
-#     is_game_over = True
+  if is_correct:
+    score += 1
+    print(f"You're right! Current score : {score}")
+  else:
+    print(f"Sorry, that's wrong. Final score : {score}")
+    is_game_over = True
 
 
 
