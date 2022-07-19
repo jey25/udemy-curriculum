@@ -30,4 +30,9 @@ resources = {
     "coffee": 100,
 }
 
-choice = input("what would you like? (espresso/latte/cappuccino) : ")
+is_on = True
+
+while is_on:
+    choice = input("what would you like? (espresso/latte/cappuccino) : ")
+    if choice == "off":
+        is_on = False
