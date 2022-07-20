@@ -30,9 +30,15 @@ resources = {
     "coffee": 100,
 }
 
+profit = 0
 is_on = True
 
 while is_on:
     choice = input("what would you like? (espresso/latte/cappuccino) : ")
     if choice == "off":
         is_on = False
+    elif choice == "report":
+        Water : 100ml
+        Milk : 50ml
+        Coffee : 76g
+        Money : $2.5
