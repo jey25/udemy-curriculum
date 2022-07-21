@@ -24,13 +24,13 @@ MENU = {
     }
 }
 
+profit = 0
 resources = {
     "water": 300,
     "milk": 200,
     "coffee": 100,
 }
 
-profit = 0
 is_on = True
 
 while is_on:
@@ -38,7 +38,7 @@ while is_on:
     if choice == "off":
         is_on = False
     elif choice == "report":
-        Water : 100ml
-        Milk : 50ml
-        Coffee : 76g
-        Money : $2.5
+        print (f"Water : {resources['water']}ml")
+        print (f"Milk : {resources['milk']}ml")
+        print (f"Coffee : {resources['coffee']}g")
+        print (f"Money : ${profit}")
