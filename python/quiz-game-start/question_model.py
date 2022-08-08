@@ -4,5 +4,3 @@ class Question:
     self.text = q_text
     self.answer = q_answer
 
-new_q = Question("asdsad", "12331")
-print(new_q. text)
