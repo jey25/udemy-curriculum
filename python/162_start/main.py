@@ -1,3 +1,4 @@
+from modulefinder import IMPORT_NAME
 from turtle import Screen, Turtle
 import turtle
 
@@ -11,14 +12,7 @@ for _ in range(4):
   t.right(90) 
 
 
-
-
-
-
-
-
-
-
+import heroes
 
 
 screen = Screen()
