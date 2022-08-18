@@ -19,8 +19,5 @@ for _ in range(15):
 
 
 
-import heroes
-
-
 screen = Screen()
 screen.exitonclick()
