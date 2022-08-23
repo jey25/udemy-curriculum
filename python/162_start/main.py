@@ -14,37 +14,19 @@ t.color("red")
 # for _ in range(15):
 #   t.forward(5)
 #   t.up()
-#   t.forward(5)
+#   t.forward(5) 
 #   t.down()
 
-for _ in range(3):
-  t.forward(100)
-  t.rt(360/3)
 
-t.color("blue")
+def draw_shape(num_sides):
+  angle = 360 / num_sides
 
-for _ in range(4):
-  t.forward(100)
-  t.rt(360/4)
+  for _ in range(num_sides):
+    t.forward(100)
+    t.rt(angle)
 
-t.color("purple")
-
-for _ in range(5):
-  t.forward(100)
-  t.rt(360/5)
-
-t.color("black")
-
-for _ in range(6):
-  t.forward(100)
-  t.rt(360/6)
-
-t.color("gray")
-
-for _ in range(7):
-  t.forward(100)
-  t.rt(360/7)
-
+for shape_side in range(3, 11):
+  draw_shape(shape_side)
 
 
 
