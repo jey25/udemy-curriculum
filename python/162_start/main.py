@@ -29,6 +29,5 @@ for shape_side in range(3, 11):
   draw_shape(shape_side)
 
 
-
 screen = Screen()
 screen.exitonclick()
