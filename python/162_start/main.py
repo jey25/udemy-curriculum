@@ -1,6 +1,8 @@
+import colorsys
 from modulefinder import IMPORT_NAME
 from turtle import Screen, Turtle
 import turtle
+import random
 
 t = Turtle()
 
@@ -17,6 +19,7 @@ t.color("red")
 #   t.forward(5) 
 #   t.down()
 
+colors = ["red", "blue", "gray", "black", "purple"]
 
 def draw_shape(num_sides):
   angle = 360 / num_sides
@@ -26,6 +29,7 @@ def draw_shape(num_sides):
     t.rt(angle)
 
 for shape_side in range(3, 11):
+  t.color(random.choice(colors))
   draw_shape(shape_side)
 
 
