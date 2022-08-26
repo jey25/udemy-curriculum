@@ -21,16 +21,26 @@ t.color("red")
 
 colors = ["red", "blue", "gray", "black", "purple"]
 
-def draw_shape(num_sides):
-  angle = 360 / num_sides
+# def draw_shape(num_sides):
+#   angle = 360 / num_sides
 
-  for _ in range(num_sides):
-    t.forward(100)
-    t.rt(angle)
+#   for _ in range(num_sides):
+#     t.forward(100)
+#     t.rt(angle)
 
-for shape_side in range(3, 11):
+# for shape_side in range(3, 11):
+#   t.color(random.choice(colors))
+#   draw_shape(shape_side)
+
+directions  = [0, 90, 180, 270]
+t.pensize(15)
+t.speed(50)
+
+for _ in range(200):
   t.color(random.choice(colors))
-  draw_shape(shape_side)
+  t.forward(50)
+  t.setheading(random.choice(directions))
+
 
 
 screen = Screen()
