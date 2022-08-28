@@ -39,7 +39,8 @@ def random_color():
 
 directions  = [0, 90, 180, 270]
 tim.pensize(15)
-tim.speed(50)
+tim.speed(60)
+
 
 for _ in range(200):
   tim.color(random_color())
