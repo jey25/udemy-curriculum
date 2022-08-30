@@ -10,5 +10,5 @@ def move_forwords():
 
 
 screen.listen()
-screen.onkey(key="space", fun=move_forwords)
+screen.onkey(key="w", fun=move_forwords)
 screen.exitonclick()
