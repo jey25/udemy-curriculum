@@ -4,5 +4,4 @@ tim = Turtle()
 screen = Screen()
 
 
-
 screen.exitonclick()
