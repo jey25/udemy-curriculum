@@ -1,7 +1,9 @@
 from turtle import Turtle, Screen
+import random
 
 
 
+is_race_on = False
 screen = Screen()
 screen.setup(width=500, height=400)
 user_bet = screen.textinput(title="Make your bet", prompt="Which turrle will win the race? Enter a color : ")
@@ -14,6 +16,14 @@ for turtle_index in range(0, 6):
     tim.penup()
     tim.color(colors[turtle_index])
     tim.goto(x=-230, y=y_positions[turtle_index])
+
+
+if user_bet:
+  is_race_on = True
+
+while is_race_on:
+  instance = random.randint(0, 10)
+  
 
 
 
