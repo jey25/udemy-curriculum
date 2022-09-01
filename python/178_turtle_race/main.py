@@ -4,9 +4,12 @@ import random
 
 
 is_race_on = False
+
 screen = Screen()
 screen.setup(width=500, height=400)
+
 user_bet = screen.textinput(title="Make your bet", prompt="Which turrle will win the race? Enter a color : ")
+
 colors = ["red", "orange", "yellow", "blue", "green", "purple"]
 y_positions = [-70, -40, -10, 20, 50, 80]
 
@@ -23,7 +26,7 @@ if user_bet:
 
 while is_race_on:
   instance = random.randint(0, 10)
-  
+
 
 
 
