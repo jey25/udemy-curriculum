@@ -38,5 +38,4 @@ while is_race_on:
     turtle.forward(distance)
 
 
-
 screen.exitonclick()
