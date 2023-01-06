@@ -1,1 +1,3 @@
-print("Day 1-Python \nPrint Function")
+name = input("What is your name?")
+if name == "jang":
+    print("So cool man")
