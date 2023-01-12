@@ -1,3 +1,3 @@
-name = (len(input("Waht is your name? ")))
+name = input("Waht is your name? ")
 
 print(name)
