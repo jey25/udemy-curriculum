@@ -4,7 +4,5 @@ b = input("b:")
 
 
 print(a)
-
-
 print(b)
 
