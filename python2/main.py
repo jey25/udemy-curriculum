@@ -1,5 +1,8 @@
-num_char = len(input("what is your name?"))
+# num_char = len(input("what is your name?"))
 
-nwe_num_char = str(num_char)
+# nwe_num_char = str(num_char)
 
-print("Your name has " + nwe_num_char + "cha")
+# print("Your name has " + nwe_num_char + "cha")
+
+a = str(123)
+print(type(a))
