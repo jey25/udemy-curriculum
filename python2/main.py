@@ -1,10 +1,11 @@
-# num_char = len(input("what is your name?"))
+number = input("please enter number here : ")
 
-# nwe_num_char = str(num_char)
+number_a = number[0]
+number_b = number[1]
 
-# print("Your name has " + nwe_num_char + "cha")
+number_int_a = int(number_a)
+number_int_b = int(number_b)
 
-a = str(123)
-print(type(a))
+answer = number_int_a + number_int_b
 
-print(70 + float("100.5"))
+print(answer)
